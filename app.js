@@ -8,7 +8,7 @@ const body = document.querySelector("body");
 const bottom = document.querySelector(".bottom");
 const bottom2 = document.querySelector(".bottom2");
 async function check(city) {
-    if (input.value) {
+    if (input.value =="") {
         msgbtn.innerHTML='City name is required!';
         return;
     }
